@@ -2,8 +2,8 @@ import { Metadata } from 'next';
 import { Download, ExternalLink, Calendar, FileText } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Resume | Pavan',
-  description: 'View and download the resume of Pavan - Full Stack Back-end Developer',
+  title: 'Resume | Subramanyambattari',
+  description: 'View and download the resume of Subramanyambattari - Full Stack Back-end Developer',
 };
 
 async function getResumeMetadata() {
@@ -67,7 +67,7 @@ export default async function ResumePage() {
               </a>
               <a
                 href={resumePath}
-                download="Pavan_Resume.pdf"
+                download="subramanyambattari.pdf"
                 className="flex items-center gap-2 px-4 py-2 bg-accent text-white rounded-lg hover:bg-accent/90 transition-colors"
               >
                 <Download className="w-4 h-4" />

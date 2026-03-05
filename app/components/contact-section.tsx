@@ -11,12 +11,12 @@ const socials = [
   {
     name: "GitHub",
     icon: <Github size={18} />,
-    href: "https://github.com/PAVANT009",
+    href: "https://github.com/subramanyambattari",
   },
   {
     name: "LinkedIn",
     icon: <Linkedin size={18} />,
-    href: "https://www.linkedin.com/in/pavan-teja-kumar-65261035b/",
+    href: "https://www.linkedin.com/in/subramanyam-battari/",
   },
   // {
   //   name: "Twitter",
@@ -107,7 +107,7 @@ export function ContactSection() {
   };
 
   const copyEmail = async () => {
-    await navigator.clipboard.writeText("tejap9316@gmail.com");
+    await navigator.clipboard.writeText("subramanyambattari@gmail.com");
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
@@ -246,10 +246,10 @@ export function ContactSection() {
               </div>
               <div className="flex items-center gap-2">
                 <a
-                  href="mailto:tejap9316@gmail.com"
+                  href="mailto:subramanyambattari@gmail.com"
                   className="flex-1 truncate text-sm text-text-secondary hover:text-accent transition-colors"
                 >
-                  tejap9316@gmail.com
+                  subramanyambattari@gmail.com
                 </a>
                 <button
                   onClick={copyEmail}
@@ -263,7 +263,7 @@ export function ContactSection() {
 
             {/* Book a Meeting */}
             <a
-              href="https://cal.com/pavan-teja-lxgie1"
+              href="https://cal.com/subbu-royal-kdydih"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-center gap-4 rounded-xl border border-border bg-bg-card p-5 hover:border-accent/50 transition-all"

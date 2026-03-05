@@ -12,14 +12,14 @@ import { ArrowRight, Sparkles, ArrowLeft } from "lucide-react";
 export const metadata: Metadata = {
   title: "Blog",
   description:
-    "Thoughts, learnings, and tutorials by Pavan Teja on web development, back-end engineering, and technology.",
+    "Thoughts, learnings, and tutorials by Subramanyambattari on web development, back-end engineering, and technology.",
   alternates: {
     canonical: "/blog",
   },
   openGraph: {
-    title: "Blog | Pavan Teja",
+    title: "Blog | Subramanyambattari",
     description:
-      "Thoughts, learnings, and tutorials by Pavan Teja on web development, back-end engineering, and technology.",
+      "Thoughts, learnings, and tutorials by Subramanyambattari on web development, back-end engineering, and technology.",
     url: "https://thispavan.dev/blog",
     type: "website",
   },

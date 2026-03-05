@@ -17,19 +17,19 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://thispavan.dev"),
-  applicationName: "Pavan Teja Portfolio",
+  applicationName: "Subramanyambattari Portfolio",
   icons: {
     icon: "/metadataimage.png",
     apple: "/metadataimage.png",
   },
   title: {
-    default: "Pavan Teja | Full Stack Back-end Developer",
-    template: "%s | Pavan Teja",
+    default: "Subramanyambattari | Full Stack Back-end Developer",
+    template: "%s | Subramanyambattari",
   },
   description:
-    "Portfolio of Pavan Teja, a full stack back-end developer building modern web applications and tools.",
+    "Portfolio of Subramanyambattari, a full stack back-end developer building modern web applications and tools.",
   keywords: [
-    "Pavan Teja",
+    "Subramanyambattari",
     "thispavan.dev",
     "portfolio",
     "full stack developer",
@@ -37,9 +37,9 @@ export const metadata: Metadata = {
     "next.js developer",
     "web development",
   ],
-  authors: [{ name: "Pavan Teja", url: "https://thispavan.dev" }],
-  creator: "Pavan Teja",
-  publisher: "Pavan Teja",
+  authors: [{ name: "Subramanyambattari", url: "https://thispavan.dev" }],
+  creator: "Subramanyambattari",
+  publisher: "Subramanyambattari",
   alternates: {
     canonical: "/",
   },
@@ -55,9 +55,9 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Pavan Teja | Full Stack Back-end Developer",
+    title: "Subramanyambattari | Full Stack Back-end Developer",
     description:
-      "Explore projects, skills, and blog posts by Pavan Teja, a full stack back-end developer.",
+      "Explore projects, skills, and blog posts by Subramanyambattari, a full stack back-end developer.",
     url: "https://thispavan.dev",
     siteName: "thispavan.dev",
     locale: "en_US",
@@ -67,15 +67,15 @@ export const metadata: Metadata = {
         url: "/opengraph-image",
         width: 1200,
         height: 630,
-        alt: "Pavan Teja Portfolio",
+        alt: "Subramanyambattari Portfolio",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Pavan Teja | Full Stack Back-end Developer",
+    title: "Subramanyambattari | Full Stack Back-end Developer",
     description:
-      "Portfolio and blog of Pavan Teja, full stack back-end developer.",
+      "Portfolio and blog of Subramanyambattari, full stack back-end developer.",
     images: ["/opengraph-image"],
   },
 };

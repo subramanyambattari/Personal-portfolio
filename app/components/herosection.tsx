@@ -116,7 +116,7 @@ export function HeroSection() {
           className="flex flex-col sm:flex-row items-center gap-4 pt-2"
         >
           <a
-            href="https://cal.com/pavan-teja-lxgie1"
+            href="https://cal.com/subbu-royal-kdydih"
             target="_blank"
             rel="noopener noreferrer"
             className="group inline-flex h-10 items-center justify-center rounded-full bg-accent px-8 text-sm font-medium text-white shadow transition-all hover:-translate-y-0.5 hover:shadow-lg hover:bg-accent-dark focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
@@ -140,11 +140,11 @@ export function HeroSection() {
           transition={{ duration: 0.5, delay: 0.4, ease: "easeOut" }}
           className="flex items-center gap-6 text-text-muted mt-2"
         >
-          <SocialLink href="https://github.com/PAVANT009" icon={<Github size={22} />} label="GitHub" />
-          <SocialLink href="https://www.linkedin.com/in/pavan-teja-kumar-65261035b/" icon={<Linkedin size={22} />} label="LinkedIn" />
+          <SocialLink href="https://github.com/subramanyambattari" icon={<Github size={22} />} label="GitHub" />
+          <SocialLink href="https://www.linkedin.com/in/subramanyam-battari/" icon={<Linkedin size={22} />} label="LinkedIn" />
           {/* <SocialLink href="https://x.com/SMSarwar47" icon={<Twitter size={22} />} label="X (Twitter)" /> */}
           {/* <SocialLink href="https://www.instagram.com/monis_sarwar/" icon={<Instagram size={22} />} label="Instagram" /> */}
-          <SocialLink href="mailto:tejap9316@gmail.com" icon={<Mail size={22} />} label="Email" />
+          <SocialLink href="mailto:subramanyambattari@gmail.com" icon={<Mail size={22} />} label="Email" />
         </motion.div>
 
       </div>

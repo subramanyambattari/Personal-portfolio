@@ -67,7 +67,7 @@ export function Navbar() {
           >
             <span className="text-base font-bold text-text-primary tracking-tight">SP</span>
             <span className="mx-5 w-px h-5 bg-border" />
-            <span className="text-base text-text-muted">Pavan</span>
+            <span className="text-base text-text-muted">Subramanyambattari</span>
           </button>
 
           {/* Center: Nav Pill - Hidden on mobile */}

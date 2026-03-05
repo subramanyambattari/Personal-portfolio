@@ -176,7 +176,7 @@ export function ProjectsSection() {
 
           {/* Coming Soon Card */}
           <a
-            href="https://github.com/PAVANT009"
+            href="https://github.com/subramanyambattari"
             target="_blank"
             rel="noopener noreferrer"
             className="group relative flex flex-col justify-center items-center text-center rounded-xl border border-dashed border-border bg-bg-card/50 p-8 hover:border-accent/50 hover:bg-bg-card transition-all"

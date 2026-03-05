@@ -114,14 +114,14 @@ export function CommandMenu({ open, setOpen }: CommandMenuProps) {
       label: "GitHub",
       description: "View GitHub profile",
       shortcut: "G",
-      action: () => window.open("https://github.com/PAVANT009", "_blank")
+      action: () => window.open("https://github.com/subramanyambattari", "_blank")
     },
     {
       icon: <Linkedin size={18} />,
       label: "LinkedIn",
       description: "Connect on LinkedIn",
       shortcut: "L",
-      action: () => window.open("https://www.linkedin.com/in/pavan-teja-kumar-65261035b/", "_blank")
+      action: () => window.open("https://www.linkedin.com/in/subramanyam-battari/", "_blank")
     },
     // {
     //   icon: <Twitter size={18} />,
@@ -133,9 +133,9 @@ export function CommandMenu({ open, setOpen }: CommandMenuProps) {
     {
       icon: <Mail size={18} />,
       label: "Send Email",
-      description: "tejap9316@gmail.com",
+      description: "subramanyambattari@gmail.com",
       shortcut: "E",
-      action: () => window.open("mailto:tejap9316@gmail.com")
+      action: () => window.open("mailto:subramanyambattari@gmail.com")
     },
   ];
 

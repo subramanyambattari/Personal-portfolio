@@ -64,7 +64,7 @@ export default async function Image() {
                 lineHeight: 1.1,
               }}
             >
-              Pavan teja
+              Subramanyambattari
             </h1>
             <p
               style={{
