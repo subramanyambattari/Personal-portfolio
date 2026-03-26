@@ -36,3 +36,18 @@ export interface Skill {
   // So `lib/data.tsx` is acceptable for a portfolio.
   icon: ReactNode;
 }
+
+export interface Certificate {
+  title: string;
+  issuer?: string;
+  file: string;
+  description?: string;
+}
+
+export interface Achievement {
+  title: string;
+  description: string;
+  month: string;
+  year: number;
+  link?: string;
+}

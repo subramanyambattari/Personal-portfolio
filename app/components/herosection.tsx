@@ -22,8 +22,8 @@ export function HeroSection() {
           <div className="relative h-32 w-32 md:h-40 md:w-40 rounded-full border border-border bg-bg-card p-1 shadow-2xl shadow-accent/10">
             <div className="relative h-full w-full overflow-hidden rounded-full">
               <Image
-                src="/image.png"
-                alt="Pavan"
+                src="/photo.png"
+                alt="Subramanyam Battari"
                 fill
                 className="object-cover"
                 priority

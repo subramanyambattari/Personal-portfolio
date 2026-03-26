@@ -313,7 +313,7 @@ export function ContactSection() {
         {/* Footer */}
         <div className="mt-20 pt-6 border-t border-border text-center">
           <p className="text-xs text-text-muted">
-            &copy; {new Date().getFullYear()} Pavan
+            &copy; {new Date().getFullYear()} Subramanyam
           </p>
         </div>
       </div>

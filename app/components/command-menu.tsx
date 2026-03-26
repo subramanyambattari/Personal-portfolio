@@ -10,6 +10,8 @@ import {
   FolderOpen, 
   Download, 
   Wrench, 
+  Award,
+  Trophy,
   Mail,
   Github,
   Linkedin,
@@ -90,6 +92,32 @@ export function CommandMenu({ open, setOpen }: CommandMenuProps) {
           document.getElementById("skills")?.scrollIntoView({ behavior: "smooth" });
         } else {
           router.push("/#skills");
+        }
+      }
+    },
+    { 
+      icon: <Award size={18} />, 
+      label: "Go to Certificates", 
+      description: "View certifications and credentials",
+      shortcut: "T",
+      action: () => {
+        if (pathname === "/") {
+          document.getElementById("certificates")?.scrollIntoView({ behavior: "smooth" });
+        } else {
+          router.push("/#certificates");
+        }
+      }
+    },
+    { 
+      icon: <Trophy size={18} />, 
+      label: "Go to Achievements", 
+      description: "View milestones and achievements",
+      shortcut: "A",
+      action: () => {
+        if (pathname === "/") {
+          document.getElementById("achievements")?.scrollIntoView({ behavior: "smooth" });
+        } else {
+          router.push("/#achievements");
         }
       }
     },
