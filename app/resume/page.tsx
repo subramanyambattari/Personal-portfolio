@@ -14,7 +14,7 @@ async function getResumeMetadata() {
     return {
       lastUpdated: new Date().toISOString().split('T')[0],
       version: '1.0',
-      fileName: 'resume1.pdf',
+      fileName: 'resume.pdf',
       fileSize: 'N/A'
     };
   }
@@ -22,7 +22,7 @@ async function getResumeMetadata() {
 
 export default async function ResumePage() {
   const metadata = await getResumeMetadata();
-  const resumePath = '/resume/resume1.pdf';
+  const resumePath = '/resume/resume.pdf';
 
   return (
     <div className="min-h-screen bg-bg-primary text-text-primary py-20 px-4">
