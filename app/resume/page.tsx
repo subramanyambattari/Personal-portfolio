@@ -1,4 +1,4 @@
-import { Metadata } from 'next';
+import type { Metadata } from 'next';
 import { Download, ExternalLink, Calendar, FileText } from 'lucide-react';
 
 export const metadata: Metadata = {
@@ -6,23 +6,14 @@ export const metadata: Metadata = {
   description: 'View and download the resume of Subramanyambattari - Full Stack Back-end Developer',
 };
 
-async function getResumeMetadata() {
-  try {
-    const metadata = await import('@/lib/resume-metadata.json');
-    return metadata.default;
-  } catch {
-    return {
-      lastUpdated: new Date().toISOString().split('T')[0],
-      version: '1.0',
-      fileName: 'resume.pdf',
-      fileSize: 'N/A'
-    };
-  }
-}
+const resumeDetails = {
+  lastUpdated: '2026-04-29',
+  fileName: 'updatedresume.pdf',
+  fileSize: '171 KB',
+};
 
-export default async function ResumePage() {
-  const metadata = await getResumeMetadata();
-  const resumePath = '/resume/resume.pdf';
+export default function ResumePage() {
+  const resumePath = `/resume/${resumeDetails.fileName}`;
 
   return (
     <div className="min-h-screen bg-bg-primary text-text-primary py-20 px-4">
@@ -42,7 +33,7 @@ export default async function ResumePage() {
             <div className="flex flex-wrap items-center gap-4 text-sm text-text-secondary">
               <div className="flex items-center gap-2">
                 <Calendar className="w-4 h-4" />
-                <span>Updated: {new Date(metadata.lastUpdated).toLocaleDateString('en-US', {
+                <span>Updated: {new Date(resumeDetails.lastUpdated).toLocaleDateString('en-US', {
                   year: 'numeric',
                   month: 'short',
                   day: 'numeric'
@@ -50,7 +41,7 @@ export default async function ResumePage() {
               </div>
               <div className="flex items-center gap-2">
                 <FileText className="w-4 h-4" />
-                <span>Size: {metadata.fileSize}</span>
+                <span>Size: {resumeDetails.fileSize}</span>
               </div>
             </div>
 
