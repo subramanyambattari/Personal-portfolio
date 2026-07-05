@@ -7,13 +7,13 @@ export const metadata: Metadata = {
 };
 
 const resumeDetails = {
-  lastUpdated: '2026-04-29',
-  fileName: 'updatedresume.pdf',
-  fileSize: '171 KB',
+  lastUpdated: '2026-07-05',
+  fileName: 'generalized_resumeupdated (1).pdf',
+  fileSize: '141 KB',
 };
 
 export default function ResumePage() {
-  const resumePath = `/resume/${resumeDetails.fileName}`;
+  const resumePath = `/resume/${encodeURIComponent(resumeDetails.fileName)}`;
 
   return (
     <div className="min-h-screen bg-bg-primary text-text-primary py-20 px-4">
