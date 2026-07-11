@@ -7,8 +7,8 @@ export const metadata: Metadata = {
 };
 
 const resumeDetails = {
-  lastUpdated: '2026-07-05',
-  fileName: 'generalized_resumeupdated (1).pdf',
+  lastUpdated: '2026-07-07',
+  fileName: 'generalized_resume1.pdf',
   fileSize: '141 KB',
 };
 

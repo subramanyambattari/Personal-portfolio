@@ -80,7 +80,7 @@ export function CommandMenu({ open, setOpen }: CommandMenuProps) {
       label: "Go to Resume", 
       description: "View and download resume",
       shortcut: "R",
-      action: () => window.open("/resume/generalized_resumeupdated%20(1).pdf", "_blank")
+      action: () => window.open("/resume/generalized_resume1.pdf", "_blank")
     },
     { 
       icon: <Wrench size={18} />, 
