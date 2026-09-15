@@ -7,9 +7,9 @@ export const metadata: Metadata = {
 };
 
 const resumeDetails = {
-  lastUpdated: '2026-09-05',
-  fileName: 'generalized_resumeutd.pdf',
-  fileSize: '141 KB',
+  lastUpdated: '2026-09-13',
+  fileName: 'generalizeduptresume.pdf',
+  fileSize: '142 KB',
 };
 
 export default function ResumePage() {
